@@ -1,0 +1,12 @@
+<div class="main">
+<div class="container mx-10">
+    <div class="flex flex-wrap gap-3">
+      @for( item of data; track item.id){
+      <div class="flex-3">
+        <app-cards  [data]="item"></app-cards>
+      </div>
+      }
+    </div>
+</div>
+</div>
+  

@@ -1,0 +1,14 @@
+.card
+{
+   background-color: transparent;
+   max-width: 80%;
+   max-height:90%;
+   backdrop-filter:blur(10px);
+   transition: 2s;;
+   box-shadow: 0px 0px 10px cyan;
+}
+.card:hover
+{
+    scale: 102%;
+    transition: 2s;
+}
